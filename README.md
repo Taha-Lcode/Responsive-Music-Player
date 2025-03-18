@@ -5,10 +5,8 @@ A sleek and fully responsive music player web app inspired by the design and fun
 ## Features 🚀
 
 - 🎼 **Play, Pause & Skip Tracks**
-- 🔄 **Repeat & Shuffle Mode**
-- 🎵 **Playlist & Queue Management**
+- 🎵 **Playlist & Queue**
 - 🎚 **Volume Control & Mute Option**
-- 🌙 **Light/Dark Mode Toggle**
 - 📱 **Fully Responsive Design** (Mobile & Desktop Friendly)
 - ⚡ **Smooth Animations & Transitions**
 
@@ -17,7 +15,6 @@ A sleek and fully responsive music player web app inspired by the design and fun
 - **HTML5, CSS3, JavaScript** (Frontend Development)
 - **Flexbox & Grid** (Responsive Layout)
 - **FontAwesome Icons** (UI Enhancements)
-- **LocalStorage** (Saving User Preferences)
 
 ## Installation & Setup 📦
 
@@ -37,6 +34,7 @@ A sleek and fully responsive music player web app inspired by the design and fun
 *Home screen of the music player*
 
 ![Now Playing](Music1.png)
+![Now Playing](Music4.png)
 *Responsiveness*
 
 ## Inspiration 💡
