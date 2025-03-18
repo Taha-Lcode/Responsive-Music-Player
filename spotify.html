@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://use.typekit.net/tdh7kvz.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menubar">
+                <img class="invert" height="44px" width="44px" src="Menu.svg" alt="">
+            </div>
+
+            <div class="home-nav">
+                <div class="logo">
+                    <a href="">
+                        <img src="logo.svg" alt="Spotify">
+                    </a>
+                </div>
+                <div class="home">
+                    <button class="btn1">
+                        <img width="24px" height="24px" src="home.svg" alt="home">
+                    </button>
+                    <div class="search">
+                        <form action="">
+                            <div class="S1">
+                                <img width="24px" height="24px" src="search.svg" alt="search">
+                            </div>
+                            <div class="S2">
+                                <input type="search" placeholder="What do you want to play?">
+                            </div>
+                            <div class="S3">
+                                <button class="btn2">
+                                    <img width="24px" height="24px" src="browes.svg" alt="browser">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-nav">
+                <button class="btn">Premium</button>
+                <button class="btn">Support</button>
+                <button class="btn">Download</button>
+                <div class="line"></div>
+                <a href="https://www.spotify.com/in-en/download/windows/">
+                    <span><img width="16px" height="16px" src="install.svg" alt="install"></span>
+                    <span>Install App</span>
+                </a>
+                <img class="logo2" src="logo.svg" alt="">
+                <div class="sign-in">
+                    <button class="B1">Sign up</button>
+                    <button class="B2">Log in</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="library">
+            <div class="heading">
+                <div class="lib">
+                    <button>
+                        <span><img class="invert" height="24px" width="24px" src="library.svg" alt=""></span>
+                        Your Library
+                    </button>
+                </div>
+                <div class="close">
+                    <img class="invert" src="close.svg" alt="">
+                </div>
+            </div>
+            <div class="songlist">
+                <ul>
+                </ul>
+            </div>
+            <div class="lib-bottom">
+                <div class="lb-2">
+                    <div class="lb-3">
+                        <div class="link">
+                            <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety &amp; Privacy Center</a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                        </div>
+                    </div>
+                    <a class="link2" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener">Cookies</a>
+                </div>
+                <div class="lb-4">
+                    <button>
+                        <span><img class="invert" height="16px" width="16px" src="english.svg" alt=""></span>
+                        English
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="playlist">
+            <section class="album">
+                <div class="box">
+                    <section class="album-1">
+                        <div class="title">
+                            <h2>
+                                <span>Popular Songs Album</span>
+                            </h2>
+                        </div>
+                        <div class="container">
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img id="previous" height="48px" width="48px" class="invert" src="skip-start-fill.svg" alt="">
+                        <img id="play" height="48px" width="48px" class="invert" src="play-fill.svg" alt="">
+                        <img id="next" height="48px" width="48px" class="invert" src="skip-end-fill.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="volume">
+                            <img height="28px" width="28px" class="invert" src="volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                        <div class="songtime"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="end">
+            <div class="content">
+                <p>Preview of Spotify</p>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <button class="btn3">
+                <span>Sign up free</span>
+            </button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
