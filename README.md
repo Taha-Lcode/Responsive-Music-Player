@@ -33,10 +33,10 @@ A sleek and fully responsive music player web app inspired by the design and fun
 
 ## Screenshots 📸
 
-![Home Screen]()
+![Home Screen](Music3.png)
 *Home screen of the music player*
 
-![Now Playing]()
+![Now Playing](Music1.png)
 *Responsiveness*
 
 ## Inspiration 💡
